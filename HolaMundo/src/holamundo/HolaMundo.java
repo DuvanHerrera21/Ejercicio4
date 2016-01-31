@@ -16,13 +16,15 @@ public class HolaMundo {
      */
     public static void main(String[] args) {
         System.out.println("Hola Mundo");
-        double a = 5, b = 10, c, r, d;
+        int a = 5, b = 10, c, r, d, m;
         c = a + b;
         System.out.println(a + " + " + b + " = " + c);
         r = a - b;
         System.out.println(a + " - " + b + " = " + r);
         d = a / b;
         System.out.println(a + " / " + b + " = " + d);
+        m = a * b;
+        System.out.println(a + " * " + b + " = " + m);
     }
 
 }
