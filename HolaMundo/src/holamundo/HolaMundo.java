@@ -16,9 +16,11 @@ public class HolaMundo {
      */
     public static void main(String[] args) {
         System.out.println("Hola Mundo");
-        int a = 5, b = 10, c;
+        int a = 5, b = 10, c, r;
         c = a + b;
         System.out.println(a + " + " + b + " = " + c);
+        r = a - b;
+        System.out.println(a + " - " + b + " = " + r);
     }
 
 }
